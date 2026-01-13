@@ -1,0 +1,34 @@
+package B_structure_and_rules;
+
+public class Theory {
+    public static void main(String[] args) {
+        // 1. Точка входа (Entry Point)
+        // Любая программа на Java начинается с метода main.
+        // Он должен быть public (доступен всем), static (существует без создания объекта) и void (ничего не возвращает).
+        System.out.println("Hello from Theory!");
+
+        // 2. Файл и Класс (File & Class)
+        // Имя файла должно совпадать с именем публичного класса.
+        // Этот файл называется Theory.java, поэтому класс называется Theory.
+
+        // 3. Регистрозависимость (Case Sensitivity)
+        // Java различает большие и маленькие буквы.
+        int number = 5;
+        int Number = 10; // Это разные переменные!
+        System.out.println("number: " + number);
+        System.out.println("Number: " + Number);
+
+        // 4. Блоки кода (Code Blocks)
+        // Фигурные скобки { ... } определяют область видимости.
+        {
+            // Эта переменная видна только внутри этого блока
+            String secret = "I am hidden";
+            System.out.println(secret);
+        }
+        // System.out.println(secret); // Ошибка: переменную secret здесь не видно
+
+        // 5. Завершение команд (Semicolons)
+        // Каждая команда заканчивается точкой с запятой.
+        int x = 10; // ; обязательна
+    }
+}
