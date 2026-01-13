@@ -1,4 +1,4 @@
-package C_data_and_variables;
+package learning.C_data_and_variables;
 
 // TODO: Раскомментируйте код ниже и исправьте ошибки типов и именования.
 

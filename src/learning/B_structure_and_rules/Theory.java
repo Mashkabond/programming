@@ -1,4 +1,4 @@
-package B_structure_and_rules;
+package learning.B_structure_and_rules;
 
 public class Theory {
     public static void main(String[] args) {

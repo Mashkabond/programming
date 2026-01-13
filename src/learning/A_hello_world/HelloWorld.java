@@ -1,4 +1,4 @@
-package A_hello_world;
+package learning.A_hello_world;
 
 public class HelloWorld {
     public static void main(String[] args) {

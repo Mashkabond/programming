@@ -1,4 +1,4 @@
-package B_structure_and_rules;
+package learning.B_structure_and_rules;
 
 // TODO: Расскоментируйте код ниже и исправьте ошибки в этом файле, чтобы он скомпилировался и запустился.
 
